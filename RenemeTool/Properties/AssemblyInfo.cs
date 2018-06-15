@@ -10,17 +10,17 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("RenemeTool")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// ComVisible を false に設定すると、このアセンブリ内の型は COM コンポーネントから
-// 参照できなくなります。COM からこのアセンブリ内の型にアクセスする必要がある場合は、
+// ComVisible を false に設定すると、その型はこのアセンブリ内で COM コンポーネントから 
+// 参照不可能になります。COM からこのアセンブリ内の型にアクセスする場合は、
 // その型の ComVisible 属性を true に設定してください。
 [assembly: ComVisible(false)]
 
 // このプロジェクトが COM に公開される場合、次の GUID が typelib の ID になります
-[assembly: Guid("8611e2f3-1e37-4053-9fab-fc13d232be68")]
+[assembly: Guid("06a4d9c9-7b0e-4e92-92a2-be66929525ec")]
 
 // アセンブリのバージョン情報は次の 4 つの値で構成されています:
 //
@@ -29,7 +29,7 @@ using System.Runtime.InteropServices;
 //      ビルド番号
 //      Revision
 //
-// すべての値を指定するか、次を使用してビルド番号とリビジョン番号を既定に設定できます
+// すべての値を指定するか、下のように '*' を使ってビルドおよびリビジョン番号を 
 // 既定値にすることができます:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
